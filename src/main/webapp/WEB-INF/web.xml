@@ -5,6 +5,12 @@
   <servlet>
   <servlet-name>add</servlet-name>
   <servlet-class>demo_servlet.AddServlet</servlet-class>
+  
+  <init-param>
+  <param-name>name</param-name>
+  <param-value>Nano</param-value>
+  </init-param>
+  
   </servlet>
   
   <servlet-mapping>
@@ -21,5 +27,17 @@
   <servlet-name>sqr</servlet-name>
   <url-pattern>/sqr</url-pattern>
   </servlet-mapping>
+  
+  
+  
+  <context-param>
+  <param-name>name</param-name>
+  <param-value>micro</param-value>
+  </context-param>
+  
+  <context-param>
+  <param-name>Phone</param-name>
+  <param-value>Samsung</param-value>
+  </context-param>
   
 </web-app>
