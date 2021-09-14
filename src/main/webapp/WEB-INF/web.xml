@@ -2,7 +2,7 @@
 <web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
   <display-name>demo_servlet</display-name>
   
-  <servlet>
+  <!-- <servlet>
   <servlet-name>add</servlet-name>
   <servlet-class>demo_servlet.AddServlet</servlet-class>
   
@@ -38,6 +38,6 @@
   <context-param>
   <param-name>Phone</param-name>
   <param-value>Samsung</param-value>
-  </context-param>
+  </context-param> -->
   
 </web-app>
